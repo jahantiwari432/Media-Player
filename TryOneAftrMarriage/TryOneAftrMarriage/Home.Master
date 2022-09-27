@@ -1,0 +1,88 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Home.Master.cs" Inherits="TryOneAftrMarriage.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        <style>
+            #container
+            {
+                height:400px;
+                width:400px;
+            }
+            #block
+            {
+                height:50px;
+                width:400px;
+                float:left;
+            }
+            #white
+            {
+                height:50px;
+                width:50px;
+                color:white;
+                float:left;
+            }
+            #black
+            {
+                height:50px;
+                width:50px;
+                color:black;
+                float:left;
+            }
+        </style>
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+         <div id="container">
+             <div id="block">
+              <div id="black">
+
+              </div>
+              <div id="white">
+
+              </div>
+                 <div id="Div1">
+
+              </div>
+              <div id="Div2">
+
+              </div>
+                 <div id="Div3">
+
+              </div>
+              <div id="Div4">
+
+              </div>
+             </div>
+             <div id="Div5">
+              <div id="Div6">
+
+              </div>
+              <div id="Div7">
+
+              </div>
+                 <div id="Div8">
+
+              </div>
+              <div id="Div9">
+
+              </div>
+                 <div id="Div10">
+
+              </div>
+              <div id="Div11">
+
+              </div>
+             </div>
+         </div>
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
